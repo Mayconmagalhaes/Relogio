@@ -1,0 +1,74 @@
+/* Importação de fontes da Biblioteca Google - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Resert da s modificações feitas pelo HTML automaticamnete */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+
+/* Estilização do Corpo da pagina */
+body {
+    background-color: rgb(61, 120, 209); /* Cor do fundo */
+    height: 100vh; /* Definição da altura em porcentagem (vh) */
+    font-family: "Times New Roman"; /* Definição de fonte */
+}
+
+/* Cabeçario */
+header {
+    color: white; /* cor da fonte */
+    font-size: 40px; /* Tamanho da fonte */
+    text-align: center; /* alinhamento do texto */
+    margin: 20px; /* Espaçamento da margin em pixels */
+}
+
+/* Caixa  */
+section {
+    background-color: white; /*cor da caixa */
+    width: 975px; /*Largura */
+    height: 575px; /*Altura */
+    box-shadow: rgba(0, 0, 0, 0.365) 5px 5px 10px; /*sombra da caixa */
+    padding: 15px; /* Espaçamento interno entre os elementos */
+    border-radius: 50px; /* Definição do raio circular */
+    margin: auto; /* Espaçamento na margem */
+}
+
+/* Estilização do texto */
+#text {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Estilização da tag fotos */
+#fotos {
+    text-align: center;
+    margin: 30px;
+}
+
+/* Estilização das fotos */
+img {
+    width: 365px;
+    height: 365px;
+    border-radius: 285px;
+}
+
+/* Estilização da menssagem */
+#Msg {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Estilização da referencia*/
+footer {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin: 40px;
+}

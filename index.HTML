@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">  <!-- define a ligua de origem e carregamento da pagina -->
+
+    <head> <!-- Cabeça do código, carrega os recursos a serem exibidos -->
+
+        <!-- facilita a utilização de simbolos e letras para inscrição de texto -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- carrega o estilo de fonte utilizado no css -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"/> 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="icon" type="image/png" href="./assets/relogio.png" /> <!-- insere a o icone da pagina -->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" /> <!-- carrega os icones utilizados na pagina -->
+        <link rel="stylesheet" href="./style.css"/> <!-- carrega o css -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   <!-- carrega as modifocações feitas nos icones no css -->
+        <title>Exercício de Js</title>
+
+    </head>
+
+    <body onload= "carregar()">   <!-- carrega o contéudo da pagina -->
+        <header>
+        <h1>Hora do Dia</h1>   <!-- titulo do contéudo exibido na pagina web -->
+        </header>
+        <section>
+
+            <div id="text"> Texto....</div> <!-- Texto a ser modificado pelo JAvaScript de acordo com o resultado -->
+            <div id="fotos"> 
+            <img id="Photography" alt="Photos" /> <!-- insere a imagem  pelo JAvaScript de acordo com o resultado -->
+            </div>
+            <div id="Names">
+            <div id="Msg">
+                <p>Uma Mensagem</p> <!-- Texto a ser modificado pelo JAvaScript de acordo com o resultado -->
+            </div>
+        </section>
+        <footer>
+            <p>&copy; Exercício</p> <!-- Pequena referencia -->
+        </footer>
+        <script src="./index.js"></script>  <!-- carrega o JS no HTML -->
+    </body>
+ </html>
